@@ -1,0 +1,256 @@
+.info-tabs {
+  padding: 20px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  flex-wrap: wrap; /* Allow tabs to wrap on smaller screens */
+}
+
+.tabs button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.tabs button:hover {
+  background-color: #ddd;
+}
+
+.tabs .active {
+  background-color: #663399;
+  color: white;
+}
+
+.tab-content {
+  padding: 20px;
+  background-color: #d1c4e9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.skill-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.skill-card:hover {
+  transform: scale(1.05); /* Hover effect for cards */
+}
+
+.skill-card img {
+  max-width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.skill-card p {
+  font-size: 14px;
+  color: #333;
+}
+
+.education-images-container {
+  display: flex;
+  justify-content: space-between;  /* Space out the images */
+  gap: 15px;
+  flex-wrap: wrap;  /* Allow images to wrap in smaller screens */
+}
+
+.education-item {
+  cursor: pointer;
+  width: 150px;  /* Adjust the width of the images */
+  height: 150px; /* Adjust the height of the images */
+}
+
+.education-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.education-item img {
+  width: 150px;  
+  height: 150px; 
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.education-item:hover {
+  color: #333;
+}
+
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.modal-content {
+  position: relative;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 90%;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #663399;
+  transform: rotate(90deg); /* Rotated for forward arrow */
+}
+
+.modal-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.modal-navigation button {
+  padding: 8px 12px;
+  background-color: #663399;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal-navigation button:hover {
+  background-color: #5a2d8a;
+}
+
+.certifications-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.certificate-card {
+  text-align: center;
+  cursor: pointer;
+}
+
+.certificate-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.certificate-image:hover {
+  transform: scale(1.1);
+}
+
+.certificate-card p {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .tabs {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tabs button {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+
+  .skills-container {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  }
+
+  .education-images-container {
+    justify-content: center;  /* Center images on smaller screens */
+    gap: 10px;
+  }
+
+  .education-item {
+    width: 120px;  /* Smaller width for images */
+    height: 120px; /* Smaller height for images */
+  }
+
+  .modal-content {
+    max-width: 400px;  /* Adjust modal size for smaller screens */
+    width: 90%;
+  }
+
+  .certificate-image {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  .info-tabs {
+    padding: 10px;
+  }
+
+  .tabs button {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+
+  .tabs .active {
+    font-size: 14px;
+  }
+
+  .skills-container {
+    grid-template-columns: 1fr;  /* Single column for mobile */
+  }
+
+  .education-images-container {
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .education-item {
+    width: 100px;  /* Smaller width for images */
+    height: 100px; /* Smaller height for images */
+  }
+
+  .modal-content {
+    max-width: 350px;  /* Adjust modal size even more for very small screens */
+  }
+
+  .certificate-image {
+    width: 60px;
+    height: 60px;
+  }
+}
