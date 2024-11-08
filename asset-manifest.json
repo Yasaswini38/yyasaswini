@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "//yyasaswini/static/css/main.6e78fb16.css",
+    "main.js": "//yyasaswini/static/js/main.852d9456.js",
+    "static/js/453.706358b8.chunk.js": "//yyasaswini/static/js/453.706358b8.chunk.js",
+    "static/media/logo.png": "//yyasaswini/static/media/logo.4b7562e169aab2b14649.png",
+    "static/media/profile.png": "//yyasaswini/static/media/profile.af638540cb6a5b7194be.png",
+    "static/media/canva.png": "//yyasaswini/static/media/canva.2a7c80ed029e6af86ef2.png",
+    "static/media/mysql.png": "//yyasaswini/static/media/mysql.5d4091b1d1c41973f6a1.png",
+    "static/media/awsml.png": "//yyasaswini/static/media/awsml.0287b0211cc72c6f2c02.png",
+    "static/media/awsclod.png": "//yyasaswini/static/media/awsclod.6848ad9e6508bf691ed6.png",
+    "static/media/in.png": "//yyasaswini/static/media/in.84a083aefc65bc9a6d30.png",
+    "static/media/diet.png": "//yyasaswini/static/media/diet.f16e7e4f94b1a7143955.png",
+    "static/media/flask.png": "//yyasaswini/static/media/flask.84d6c5baa5eb746e8cf7.png",
+    "static/media/pds.png": "//yyasaswini/static/media/pds.10403951af67a27c1b4d.png",
+    "static/media/python.png": "//yyasaswini/static/media/python.13d34c2384692a292dee.png",
+    "static/media/ai.png": "//yyasaswini/static/media/ai.fd2fd433d64b6150fba0.png",
+    "static/media/eds.png": "//yyasaswini/static/media/eds.742eb8735e2c57bd784f.png",
+    "static/media/powerbiws.png": "//yyasaswini/static/media/powerbiws.504590939bd00c55cd84.png",
+    "static/media/ibmwbf.png": "//yyasaswini/static/media/ibmwbf.c7349cd745f96ec8bf50.png",
+    "static/media/html.png": "//yyasaswini/static/media/html.1702c45ac92926955561.png",
+    "static/media/gcc.png": "//yyasaswini/static/media/gcc.8e85cc3fdfc6f0755f56.png",
+    "static/media/rhd.png": "//yyasaswini/static/media/rhd.655d3cd55f6c1df5e126.png",
+    "static/media/sml.png": "//yyasaswini/static/media/sml.bd839ced384133c2b3aa.png",
+    "static/media/gai.png": "//yyasaswini/static/media/gai.3470f9f0260625c84912.png",
+    "static/media/css.png": "//yyasaswini/static/media/css.0ca65abfc0c427bc3506.png",
+    "static/media/tcs.png": "//yyasaswini/static/media/tcs.93574999036166192518.png",
+    "index.html": "//yyasaswini/index.html",
+    "main.6e78fb16.css.map": "//yyasaswini/static/css/main.6e78fb16.css.map",
+    "main.852d9456.js.map": "//yyasaswini/static/js/main.852d9456.js.map",
+    "453.706358b8.chunk.js.map": "//yyasaswini/static/js/453.706358b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e78fb16.css",
+    "static/js/main.852d9456.js"
+  ]
+}
